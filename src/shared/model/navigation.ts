@@ -1,5 +1,5 @@
 export const navigationMap = {
-    home: '/',
-    post: '/post/:id',
-    notFound: '*'
-}
+  home: '/',
+  post: '/posts/:id',
+  notFound: '*',
+};

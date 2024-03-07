@@ -13,6 +13,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -24,7 +34,7 @@ a:hover {
 
 body {
   margin: 0;
-  min-width: 320px;
+  min-width: 400px;
   min-height: 100vh;
 }
 
@@ -53,7 +63,9 @@ button:focus-visible {
 }
 
 .container {
-  max-width: 1024px;
+  display: flex;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 50px;
+  min-height: 100vh;
 }

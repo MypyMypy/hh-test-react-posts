@@ -1,10 +1,9 @@
-import { Posts } from "./posts"
+import { Posts } from '@/widgets/posts';
 
 export const HomePage: React.FC = () => {
-    return (
-        <>
-            <Posts />
-        </>
-    )
-}
-
+  return (
+    <main>
+      <Posts />
+    </main>
+  );
+};
